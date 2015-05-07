@@ -16,6 +16,7 @@ It supports raw promises.
 It supports generators via [`Bluebird`](https://github.com/petkaantonov/bluebird/blob/master/API.md#promisecoroutinegeneratorfunction-generatorfunction---function) & [`co`](https://www.npmjs.com/package/co).
 But of course you'd want to use async/await via [`babel`](https://babeljs.io/)
 combined with `Bluebird`'s [collection utility functions](https://github.com/petkaantonov/bluebird/blob/master/API.md#collections).[^1]
+The code examples on this page favor using async/await but any of the others would work just the same.
 
 
 </div></section>
