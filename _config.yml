@@ -1,0 +1,8 @@
+# Site settings
+title: Quinn - A web framework designed for things to come
+email: your-email@domain.com
+baseurl: ""
+url: "https://quinnjs.github.io"
+
+# Build settings
+markdown: kramdown
