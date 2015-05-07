@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="flashy-big-logo">
-  <img src="/quinn-logo.png" title="Quinn" />
+  <img src="/quinn-logo.png" title="Huge logo to hide any actual information" />
 </div>
 
 <section id="intro"><div markdown="1">
