@@ -2,7 +2,9 @@
 layout: default
 ---
 
-<div id="flashy-big-logo"></div>
+<div id="flashy-big-logo">
+  <img src="/quinn-logo.png" title="Quinn" />
+</div>
 
 <section id="intro"><div markdown="1">
 
