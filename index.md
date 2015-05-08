@@ -68,7 +68,7 @@ the dispatch function is expected to *return* the response:
 
 {% highlight js %}
 createServer(
-  quinn(req => respond({ body: 'Hello World!' }))
+  createApp(req => respond({ body: 'Hello World!' }))
 ).listen(3000);
 {% endhighlight %}
 
@@ -100,7 +100,7 @@ And using it in the app from above is as easy as calling a function:
 
 {% highlight js %}
 createServer(
-  quinn(
+  createApp(
     requestLogger(req => respond({ body: 'Hello World!' }))
   )
 ).listen(3000);
@@ -112,7 +112,7 @@ You can just keep using [`lodash`](https://lodash.com/docs#flow):
 
 {% highlight js %}
 const middleware = [ requestLogger /*, ...more middleware */ ];
-const createApp = _.compose(createServer, quinn, ...middleware);
+const createApp = _.compose(createServer, createApp, ...middleware);
 createApp(req => respond({ body: 'Hello World!' })).listen(3000);
 {% endhighlight %}
 
