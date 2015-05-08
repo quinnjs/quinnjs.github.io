@@ -81,7 +81,7 @@ Errors during request handling can bubble up naturally
 and be attributed to a request without the need to track continuation contexts
 or resorting to best effort guesses.
 
-Another convenient consequence is that dispatch function suddenly compose quite nicely
+Another convenient consequence is that dispatch functions suddenly compose quite nicely
 and there's no need for special middleware mechanics anymore.
 A "middleware" for Quinn can be as simple as this:
 
