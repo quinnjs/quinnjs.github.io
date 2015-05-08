@@ -14,8 +14,8 @@ Quinn was created to address the
 [utter](http://expressjs.com/)
 [lack](http://hapijs.com/)
 [of](http://locomotivejs.org/guide/)
-[small](http://mcavage.me/node-restify/),
-[elegant](https://www.totaljs.com/)
+[options](http://mcavage.me/node-restify/),
+[for](https://www.totaljs.com/)
 [web](http://locomotivejs.org/guide/)
 [frameworks](http://sailsjs.org/#!/)
 in the node ecosystem.
