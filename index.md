@@ -13,7 +13,7 @@ layout: default
 Quinn was created to address the
 [utter](http://expressjs.com/)
 [lack](http://hapijs.com/)
-[of](http://locomotivejs.org/guide/)
+[of](http://koajs.com/)
 [web](http://locomotivejs.org/guide/)
 [frameworks](http://sailsjs.org/#!/)
 [options](http://mcavage.me/node-restify/)
