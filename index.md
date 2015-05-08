@@ -47,7 +47,7 @@ but any of the other flavors would work just as well.
 
 ## Hello, World!
 
-This is how a traditional node.js solution to "Hello, World!" might look like:
+This is how a traditional node.js solution for "Hello, World!" might look like:
 
 {% highlight js %}
 createServer(
