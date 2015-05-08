@@ -112,8 +112,8 @@ You can just keep using [`lodash`](https://lodash.com/docs#flow):
 
 {% highlight js %}
 const middleware = [ requestLogger /*, ...more middleware */ ];
-const createApp = _.compose(createServer, createApp, ...middleware);
-createApp(req => respond({ body: 'Hello World!' })).listen(3000);
+const initFramework = _.compose(createServer, createApp, ...middleware);
+initFramework(req => respond({ body: 'Hello World!' })).listen(3000);
 {% endhighlight %}
 
 You can find more examples like this in the Quinn Cookbook.
